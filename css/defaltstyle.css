@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Reset Styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline; 
+}
+ol, ul {
+    list-style: none; 
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, section, summary {
+    display: block; 
+}
+html{
+    background-color: cadetblue;
+    display: block;
+}
+header{
+    text-align: center;
+}
+
+/* Navagation section*/
+
+nav a {
+    color: black;
+    text-decoration: none;
+    float: right;
+    display: inline;
+}
+/* Body and Content*/
+body {
+    background-color: cornflowerblue;
+    font-family: cursive;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding: .5em;
+    width: auto;
+    height: auto;
+    color: darkgreen;
+    
+}
+.parCenter{
+    text-align: center;
+}
+
+/* Form rules */
+section article {
+   float: left; 
+    
+}
+.cardLogin {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.info{
+    margin-top: 2em;
+}
+.info li {
+   display: inline-table;
+}
+
+#form li{
+    text-align: left;
+    padding-left: .25em;
+    list-style: none;
+    width: 25em; 
+}
+#col2{
+    float: right;  
+    width: 40em;
+    margin-right: 1.5em;     
+   
+}
+/* Footer content */
+footer{
+    clear: both;
+    text-align: right;
+    margin-right: 1.5em;
+}
+/* Buttons */
+
+.btn {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    font-family: cursive;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
